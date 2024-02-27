@@ -28,7 +28,7 @@ secrets:
 services:
   app:
     build:
-      context: .
+      context: ./
     depends_on:
       - database
     interfaces:
